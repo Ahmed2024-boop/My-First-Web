@@ -1,0 +1,472 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+/* body{
+  overflow-x: hidden;
+} */
+.header-details {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav img {
+  width: 120px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/Corollla.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+p {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form .Con, button {
+  color: white;
+
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 10px 30px;
+  color: WHITE;
+
+}
+.header-content {
+  color: black;
+  background-color: white;
+}
+.service {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 10px;
+margin-top: -140px;
+box-shadow: 0 0 10px black;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+.header-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+    align-items: center;
+  width: 100% !important;
+  background-color: transparent;
+}
+.header-Yr {    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 40px;
+  transition: 0.5s;
+}
+select{
+  padding: 10px 30px;
+  background: rgba(0,0,0, 0.1);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Kazi {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  padding: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  color: black;
+  align-items: center;
+
+}
+
+.col  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 30px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.col p{
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Lst {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Lst p {
+  color: black;
+}
+.Lst h4 {
+  color: black;
+}
+.Lst hr {
+  border: 2px solid white;
+  width: 100px;
+}
+hr {
+  border: 2px solid skyblue;
+  width: 150px;
+}
+.Lst p {
+  gap: 50px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-Chev {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  margin-top: 20px;
+width: 100%;
+padding: 40px;
+color: black;
+}
+
+.header-Chev img{
+  width: 500px;
+}
+.header-Chev1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 500px;
+  color: black;
+}
+
+.header-Chev p, .header-Chev h1{
+  color: black;
+}
+.header-Chev
+.fa-solid {
+  margin-top: 30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.fa-light {
+  margin-top: 30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.at {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 30px;
+}
+.feat p {
+  color: black;
+}
+.feat h4 {
+  color: black;
+}
+.feat hr {
+  border: 2px solid white;
+  width: 100px;
+}
+
+.feat hr {
+  border: 2px solid white;
+  width: 100px;
+}
+.hr2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 1px;
+  margin-top: 1px;
+}
+hr {
+  border: 2px solid skyblue;
+  width: 150px;
+}
+.Sato .row{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px ;
+  border: none;
+  width: 100%;
+  
+}
+.Sato .row .col{
+  width: 20%;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+
+}
+.Sato .row .col div{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+margin: 0;
+}
+
+.Sato .row .col div img{
+  width: 100%;
+}
+.Sato .row .col h3,.Sato .row .col h5{
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.Sato .row .col p{
+  margin-top: 10px;
+}
+.Sato .row .col h5{
+  width: 100%;
+}
+
+
+.Sato .row .col hr{
+  width:100%;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.Headings-Sato h3{
+  color: black;
+  margin-bottom: 20px;
+}
+.Headings-Sato h1{
+  color: black;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.Headings-Sato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  border: 2px solid skyblue;
+  width: 150px;
+  gap: 10px;
+  display: flex;
+  align-items: ;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Clients {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  padding: 50px;
+  gap: 10px;
+  justify-content: center;
+  
+}
+.What {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  color: black;
+  align-items: center;
+  width: 100%;
+
+}
+.loc  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.loc p{
+  color: black;
+} 
+.loc h1{
+  color: black;
+}
+.loc h2{
+  color: black;
+}
+.loc img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.footer{
+  background-color:black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+hr{
+  border: 1px solid white;
+}
+.Hyunda {
+  align-items: center;
+  display: flex;
+  background: white;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+.Hyunda img{
+width: 150px;
+}
+footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  color: white;
+}
+.footer-box{
+  
+  flex-basis: 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer li{
+  list-style: none;
+}
+footer li a{
+  text-decoration: none;
+  color: white;
+}
+.footer-box .list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.footer-box form input{
+  padding: 10px 30px;
+  color: white;
+  background: transparent;
+  outline: none;
+  border-radius: 49px;
+  border: 1px solid white;
+}
+::placeholder{
+  color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
